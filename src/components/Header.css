@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+.header {
+  font-family: "Tilt Warp", cursive;
+  font-size: 4rem;
+  margin: 0;
+  background-color: black;
+  color: black;
+  text-shadow: 2px 2px yellow, 2px -2px yellow, -2px 2px yellow,
+    -2px -2px yellow;
+  text-align: center;
+  padding: 8px;
+}

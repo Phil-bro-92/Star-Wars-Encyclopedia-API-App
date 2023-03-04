@@ -8,6 +8,18 @@ const NavBar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
+        <Link to="/characters">Characters</Link>
+      </li>
+      <li>
+        <Link to="/planets">Planets</Link>
+      </li>
+      <li>
+        <Link to="/species">Species</Link>
+      </li>
+      <li>
+        <Link to="/vehicles">vehicles</Link>
+      </li>
+      <li>
         <Link to="/starships">Starships</Link>
       </li>
     </ul>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./StarshipsContainer.css";
+import "./Container.css";
 import StarshipList from "../components/StarshipList";
 import FilterStarships from "../components/FilterStarships";
 

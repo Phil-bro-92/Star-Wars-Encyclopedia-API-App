@@ -1,9 +1,8 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    height: 120px;
+  display: grid;
+  border-top: 5px solid yellow;
+  background: linear-gradient(to right, black, grey, white, grey, black);
+  color: rgb(0, 0, 0);
+  text-align: center;
+ line-height: 0.5rem;
 }
-

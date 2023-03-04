@@ -13,12 +13,16 @@ const FilmList = ({ films, getSelectedFilm }) => {
         value={index}
         onClick={handleClick}
       >
-        Episode{film.episode_id}:&nbsp;
+        Episode {film.episode_id} :&nbsp;
         {film.title}
       </li>
     );
   });
-  return <ul className="film-list">{filmItems}</ul>;
+  return (
+    <div>
+      <ul className="film-list">{filmItems}</ul>
+    </div>
+  );
 };
 
 export default FilmList;

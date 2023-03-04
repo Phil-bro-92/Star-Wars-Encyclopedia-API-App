@@ -56,7 +56,7 @@ const FilmDetail = ({ film }) => {
           <tr>
             <th>Name</th>
             <th>Height</th>
-            <th>birth_year</th>
+            <th>Birth Year</th>
           </tr>
         </thead>
         {characters ? <tbody>{characterNodes}</tbody> : null}

@@ -12,7 +12,8 @@
   font-family: "Tilt Warp", cursive;
   font-size: 4rem;
   margin: 0;
-  background-color: black;
+  background: linear-gradient(to right, black, grey, white, grey, black);
+
   color: black;
   text-shadow: 2px 2px yellow, 2px -2px yellow, -2px 2px yellow,
     -2px -2px yellow;
@@ -20,7 +21,7 @@
   padding: 8px;
 }
 
-.character-table {
+table {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
@@ -29,29 +30,39 @@
   width: 100%;
 }
 .character-header {
-  justify-content: center;
+  text-align: center;
+  border-top: 1px solid black;
+  color: black;
   font-size: 2rem;
-
-  font-weight: bolder;
+  font-weight: ;
+  text-shadow: 1px 1px yellow, 1px -1px yellow, -1px 1px yellow,
+    -1px -1px yellow;
+  background: linear-gradient(to right, rgb(255, 255, 255), grey, rgb(0, 0, 0), grey, rgb(255, 255, 255));
 }
-.character-table td,
-.character-table th {
+table td,
+table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-.character-table tr:nth-child(even) {
+table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-.character-table tr:hover {
+table tr:hover {
   background-color: #ddd;
 }
 
-.character-table th {
+table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   background-color: rgb(55, 189, 55);
   color: white;
+}
+
+@media (max-width: 450px) {
+  .detail-container > h2 {
+    font-size: 2.5rem;
+  }
 }

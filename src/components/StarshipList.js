@@ -1,5 +1,3 @@
-import "./StarshipList.css";
-
 const StarshipList = ({ starships, filteredStarships }) => {
   let ships;
 
